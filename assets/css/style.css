@@ -110,3 +110,20 @@ i.fa {
 	border: 1px solid;
 	border-color: rgba(130,113,83,1);
 }
+
+
+.gold {
+    display: block;
+	color: rgba(130,113,83,1);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.gold:hover {
+    background-color: transparent;
+    color: rgba(130,113,83,1);
+	font-weight: bolder;
+}
