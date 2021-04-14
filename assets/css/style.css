@@ -82,3 +82,31 @@ i.fa {
 	border: 1px solid;
 	border-color: rgba(130,113,83,1);
 }
+
+
+.address {
+    display: block;
+	background-color: transparent;
+    border-color: rgba(130,113,83,1);
+	border: 1px solid;
+	border-width: 3px 3px 3px 3px;
+    color: rgba(130,113,83,1);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    border-radius: 10px;
+
+}
+
+.address:hover {
+    background-color: transparent;
+    color: rgba(130,113,83,1);
+    border: none;
+	font-weight: bolder;
+	border: 1px solid;
+	border-color: rgba(130,113,83,1);
+}
